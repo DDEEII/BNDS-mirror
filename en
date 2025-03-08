@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 首页单独引用 -->
+<head>
+
+	<!-- <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" /> -->
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" /> -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <!--force webkit on 360-->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <!--force edge on IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="360-fullscreen" content="true">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-page-mode" content="app">
+
+	<title>Official Website | Beijing National Day School</title>
+    <meta name="keywords" content="Official Website | Beijing National Day School" />
+    <meta name="description" content="Official Website | Beijing National Day School" />
+        <!--share begin -->
+    <meta name="title" property="og:title" content="Official Website | Beijing National Day School">
+    <meta name="description" property="og:description" content="Official Website | Beijing National Day School">
+    <meta name="image" property="og:image" content="https://www.bnds.cn/fxlogo.jpg">
+    <meta property="og:url" content="http://gw.bnds.cn/en/index.php?m=content&c=create_html&a=public_index&menuid=1243&pc_hash=dOxl9R">
+    <meta property="og:site_name" content="Official Website | Beijing National Day School">
+    <!--share end -->
+    <!-- add twitter meta begin -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Official Website | Beijing National Day School">
+    <meta name="twitter:description" content="Official Website | Beijing National Day School">
+    <meta name="twitter:image" content="https://www.bnds.cn/fxlogo.jpg">
+    <!-- add twitter meta end -->
+</head>
+
+<script type="text/javascript" src="js/rem.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+
+<link rel="stylesheet" type="text/css" href="css/index.css" /><!-- 首页css -->
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/swiper.min36.js"></script>
+<script type="text/javascript" src="js/swiper.animate.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+
+<script type="text/javascript" src="js/image-scale.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+
+<script>
+//窗口大小变化时候，进行刷新页面操作，防止样式混乱
+var x=window.innerWidth;
+function resizeFresh(){
+	if(x!=window.innerWidth)
+			location.reload();
+}
+</script>
+
+</head>
+
+
+
+<body onresize="resizeFresh()" >
+
+    <div class="head">
+        
+    
+    <div class="phNavIcon"></div>
+    <div class="logo">
+        <a href="/en" class="pc-logo"><img src="/images/logo.png" alt=""></a>
+        <a href="/en" class="md-logo"><img src="/images/logo_fo.png" alt=""></a>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>
+                <span><a href="/en">Home</a></span>
+            </li>
+                                                        
+                                                            <li class="on nav_list">
+                    <span>About Us</span>
+                                            <div class="nav_list">
+                                                                            <p><a href="/en/about/profile/">About BNDS</a></p>
+                                                    <p><a href="/en/about/history/">School History</a></p>
+                                                    <p><a href="/en/about/scenery/">Campus View</a></p>
+                                                    <p><a href="/en/about/videos/">Video of BNDS</a></p>
+                                                                        </div>
+                                    </li>
+                                
+                                                            <li class="on nav_list">
+                    <span>Our Community</span>
+                                            <div class="nav_list">
+                                                                            <p><a href="/en/activity/information/"> School Updates</a></p>
+                                                    <p><a href="/en/activity/notice/">Work with Us</a></p>
+                                                                        </div>
+                                    </li>
+                                
+                                                            <li class="on nav_list">
+                    <span>Our Curriculum</span>
+                                            <div class="nav_list">
+                                                                            <p><a href="/en/course/normal/">National Curriculum</a></p>
+                                                    <p><a href="/en/course/international/">International Curriculum</a></p>
+                                                                        </div>
+                                    </li>
+                                
+                                                            <li class="on nav_list">
+                    <span>Campus Life</span>
+                                            <div class="nav_list">
+                                                                            <p><a href="/en/campus/special/">Special Activities</a></p>
+                                                    <p><a href="/en/campus/club/">School Clubs</a></p>
+                                                                        </div>
+                                    </li>
+                                
+                                            
+                                            
+                                    <!--
+            <li class="liphone" style="display: none;">
+                <span>Roles</span>
+                <div class="nav_list">
+                                                                            </div>
+            </li>
+            -->
+
+
+        </ul>
+    </div>
+    <div class="head_other">
+       <!-- <a class="search" href="/en/index.php?m=content&c=index&a=lists&catid=52"></a>-->
+        <a class="search" href="/en/index.php?m=search"></a>
+        <a class="lang" href="http://www.bnds.cn/"></a>
+        <!-- <a class="lang" href="index.php?m=content&c=index&a=lists&catid=90"></a> -->
+    </div>
+    </div>
+
+
+    <div class="body_home section1">
+
+        <!-- banner -->
+        <div class="swiper-container swiper-container-homebanner" >
+            <div class="swiper-wrapper">
+                                                        <div class="swiper-slide">
+
+                            
+                        <!-- <a href="index.php?m=content&c=index&a=lists&catid=6"><img class="scale" src="/uploadfile/2024/1118/20241118085002424.png" alt=""></a>
+                        <div class="banner_txt" onclick="window.location.href='index.php?m=content&c=index&a=lists&catid=6'"><h3>&nbsp;</h3>
+<h3>Get to know BNDS</h3>
+</div> -->
+                        
+                        <a target="_blank" href="index.php?m=content&c=index&a=lists&catid=6" style="display: block;width: 100%;height: 100%;">
+                            <img class="imgPc scale"  src="/uploadfile/2024/1118/20241118085002424.png" alt="">
+                            <!-- <img class="imgPhone scale"  src="/uploadfile/2024/1118/20241118085002424.png" alt=""> -->
+                            <!-- <img class="imgPhone "  src="/uploadfile/2024/1118/20241118085002424.png" alt=""> -->
+                            <div class="banner_txt"><h3>&nbsp;</h3>
+<h3>Get to know BNDS</h3>
+</div>
+                        </a>
+
+                    </div>
+                                        <div class="swiper-slide">
+
+                            
+                        <!-- <a href="http://www.bnds.cn/en/about/scenery/"><img class="scale" src="/uploadfile/2024/1118/20241118085109335.jpg" alt=""></a>
+                        <div class="banner_txt" onclick="window.location.href='http://www.bnds.cn/en/about/scenery/'"><h3>Let&#39;s enjoy the beautiful scenery of the campus！</h3>
+</div> -->
+                        
+                        <a target="_blank" href="http://www.bnds.cn/en/about/scenery/" style="display: block;width: 100%;height: 100%;">
+                            <img class="imgPc scale"  src="/uploadfile/2024/1118/20241118085109335.jpg" alt="">
+                            <!-- <img class="imgPhone scale"  src="/uploadfile/2024/1118/20241118085109335.jpg" alt=""> -->
+                            <!-- <img class="imgPhone "  src="/uploadfile/2024/1118/20241118085109335.jpg" alt=""> -->
+                            <div class="banner_txt"><h3>Let&#39;s enjoy the beautiful scenery of the campus！</h3>
+</div>
+                        </a>
+
+                    </div>
+                                        <div class="swiper-slide">
+
+                            
+                        <!-- <a href="http://www.bnds.cn/en/2023/information_1019/363.html"><img class="scale" src="/en/uploadfile/2024/0123/20240123043833164.png" alt=""></a>
+                        <div class="banner_txt" onclick="window.location.href='http://www.bnds.cn/en/2023/information_1019/363.html'"><h3>FIRST Global Challenge BNDS Students stand on the highest podium!</h3>
+</div> -->
+                        
+                        <a target="_blank" href="http://www.bnds.cn/en/2023/information_1019/363.html" style="display: block;width: 100%;height: 100%;">
+                            <img class="imgPc scale"  src="/en/uploadfile/2024/0123/20240123043833164.png" alt="">
+                            <!-- <img class="imgPhone scale"  src="/en/uploadfile/2024/0123/20240123043833164.png" alt=""> -->
+                            <!-- <img class="imgPhone "  src="/en/uploadfile/2024/0123/20240123043833164.png" alt=""> -->
+                            <div class="banner_txt"><h3>FIRST Global Challenge BNDS Students stand on the highest podium!</h3>
+</div>
+                        </a>
+
+                    </div>
+                                        <div class="swiper-slide">
+
+                            
+                        <!-- <a href="http://www.bnds.cn/en/campus/special/"><img class="scale" src="/uploadfile/2024/1118/20241118085218735.jpg" alt=""></a>
+                        <div class="banner_txt" onclick="window.location.href='http://www.bnds.cn/en/campus/special/'"><h3>&nbsp;</h3>
+<h3>&nbsp;Discover the meaning of&nbsp;growing up&nbsp;with school activities</h3>
+</div> -->
+                        
+                        <a target="_blank" href="http://www.bnds.cn/en/campus/special/" style="display: block;width: 100%;height: 100%;">
+                            <img class="imgPc scale"  src="/uploadfile/2024/1118/20241118085218735.jpg" alt="">
+                            <!-- <img class="imgPhone scale"  src="/uploadfile/2024/1118/20241118085218735.jpg" alt=""> -->
+                            <!-- <img class="imgPhone "  src="/uploadfile/2024/1118/20241118085218735.jpg" alt=""> -->
+                            <div class="banner_txt"><h3>&nbsp;</h3>
+<h3>&nbsp;Discover the meaning of&nbsp;growing up&nbsp;with school activities</h3>
+</div>
+                        </a>
+
+                    </div>
+                                        <div class="swiper-slide">
+
+                            
+                        <!-- <a href="http://www.bnds.cn/en/index.php?m=content&c=index&a=show&catid=24&id=328"><img class="scale" src="/uploadfile/2024/1118/20241118085257504.png" alt=""></a>
+                        <div class="banner_txt" onclick="window.location.href='http://www.bnds.cn/en/index.php?m=content&c=index&a=show&catid=24&id=328'"><h3>Annual School Musical of 2022&mdash;&mdash;Fame the Musical</h3>
+</div> -->
+                        
+                        <a target="_blank" href="http://www.bnds.cn/en/index.php?m=content&c=index&a=show&catid=24&id=328" style="display: block;width: 100%;height: 100%;">
+                            <img class="imgPc scale"  src="/uploadfile/2024/1118/20241118085257504.png" alt="">
+                            <!-- <img class="imgPhone scale"  src="/uploadfile/2024/1118/20241118085257504.png" alt=""> -->
+                            <!-- <img class="imgPhone "  src="/uploadfile/2024/1118/20241118085257504.png" alt=""> -->
+                            <div class="banner_txt"><h3>Annual School Musical of 2022&mdash;&mdash;Fame the Musical</h3>
+</div>
+                        </a>
+
+                    </div>
+                                                    </div>
+
+            <div class="banner_icons"></div>
+            
+        </div>
+
+        <!-- 入口 -->
+        <div class="div_entrance" style="display:none;">
+            <ul>
+                                                            </ul>
+        </div>
+
+        <!-- nextIcon -->
+        <span class="nextIcon"></span>
+
+    </div>
+
+
+    <div class="body_b">
+        <!-- util-bin -->            <!-- 通知公告 & 党建园地 -->
+            <div class="section2">
+                <div class="section_tabs">
+                    <ol class="ol_tabicons">
+                        
+                        <li style="list-style: none;padding-left: 0;"><h3>Work with Us</h3></li>
+                        <li style="list-style: none;padding-left: 0;"><h3> School Updates</h3></li>
+                        <!--<li><h3>党建动态</h3></li>-->
+                    </ol>
+                                        <div class="div_tabdivs">
+
+                        <ul>
+                                                                                    <li>
+                                <p><a target="_blank" href="/en/2022/notice_0614/329.html">Why Join Us</a></p>
+                                <span class="sx-block">【 June 14 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2021/notice_0704/184.html">FAQ</a></p>
+                                <span class="sx-block">【 July 4 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2021/notice_0406/199.html">Contact Us</a></p>
+                                <span class="sx-block">【 April 6 】</span>
+                            </li>
+                                                                                </ul>
+                        <ul>
+                                                                                    <li>
+                                <p><a target="_blank" href="/en/2024/information_1025/386.html">Colombia Culture Day at BNDS: A Vibrant Celebration of Tradition and Flavor</a></p>
+                                <span>【 October 25 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2024/information_1025/385.html">2024 IB Arts Field Trip to 798</a></p>
+                                <span>【 October 25 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2024/information_1025/383.html">Congratulations to Phoenix Girls Volleyball Team on Winning the BASE Series 2024 Championship</a></p>
+                                <span>【 October 25 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2024/information_1018/382.html">Double-Ninth, a festival in autumn with chrysanthemums, cornels, and happiness</a></p>
+                                <span>【 October 18 】</span>
+                            </li>
+                                                                                </ul>
+                        <!--
+                        <ul>
+                                                                                    <li>
+                                <p><a target="_blank" href="/en/2022/c1_0426/324.html">爱国情常在 旗帜永飘扬</a></p>
+                                <span>【 2022-04-26 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2022/c1_0421/315.html">又是一年春好处，遍开公益服务花</a></p>
+                                <span>【 2022-04-21 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2022/c1_0304/294.html">加强劳动教育，赋能学生成长</a></p>
+                                <span>【 2022-03-04 】</span>
+                            </li>
+                                                        <li>
+                                <p><a target="_blank" href="/en/2022/c1_0221/293.html">红色基因薪火传，凝心聚力共奋进</a></p>
+                                <span>【 2022-02-21 】</span>
+                            </li>
+                                                                                </ul>
+                        -->
+                    </div>
+                </div>
+ 
+                
+
+            </div>
+                                                <!-- 遇见十一 -->
+            <div class="section3">
+
+                
+                <dl class="home_list">
+                    <dt>
+                        <div class="div_tit">
+                            <h2>About Us</h2>
+                            <p>&ldquo;In retrospect, I know that BNDS accompanied me on this journey that is worth remembering forever. BNDS will be the pride of my life.&rdquo;</p>
+<p>&mdash;&mdash;Jiang Shan, Class of 2011</p>
+                        </div>
+                    </dt>
+                    <dd>
+                        <div class="div_img">
+                            <img src="images/home/section_banner1.jpg" alt="">
+                            <p>Beijing National Day School is named after the birthday of the People&rsquo;s Republic of China. At BNDS, we experience the beauty of youthful vigor and feel the power of growth.</p>
+                        </div>
+                        <div class="slide_nav">
+                            <ul>
+                                <li><a target="_blank" href="index.php?m=content&c=index&a=lists&catid=6">About BNDS</a></li>
+                                <!--
+                                <li><a target="_blank"  href="index.php?m=content&c=index&a=lists&catid=7">School History</a></li>
+                                
+                                -->
+                                <li><a target="_blank"  href="index.php?m=content&c=index&a=lists&catid=8">Campus View</a></li>
+                                
+                                <li><a target="_blank"  href="index.php?m=content&c=index&a=lists&catid=9">Video of BNDS</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                   
+                        
+                
+                </dl>
+
+            </div>
+
+            <!-- 十一课程  -->
+            <div class=" section4">
+
+                <dl class="home_list">
+                    <dt>
+                        <div class="div_tit">
+                            
+                            <h2>Our Curriculum</h2>
+                            <p>&ldquo;The diverse curriculum system at BNDS offered me ubiquitous choices and opportunities to pursue my dreams through daily learning.&rdquo;</p>
+<p>&mdash;&mdash;Chen Tianze, Class of 2014</p>
+                        </div>
+                        
+                    </dt>
+                    <dd>
+                        <div class="div_img">
+                            <img src="/11s/uploadfile/2021/1011/20211011042811288.jpg" alt="">
+                            <p>BNDS is a &ldquo;school for everyone&rdquo;. It offers tiered, categorized, integrated, and specialized curricula, and adopts diversified and individualized teaching methods. BNDS creates an education that suits every individual&rsquo;s development.</p>
+                        </div>
+                        <div class="slide_nav">
+                            <ul>
+                                <li><a target="_blank"  href="index.php?m=content&c=index&a=lists&catid=14">National Curriculum</a></li>
+                                <li><a target="_blank"  href="index.php?m=content&c=index&a=lists&catid=15">International Curriculum</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+
+            </div>
+
+            <!-- 校园生活  -->
+            <div class=" section5">
+
+                <dl class="home_list">
+                    <dt>
+                        <div class="div_tit">
+                            <h2>Campus Life</h2>
+                            <p>&ldquo;The most important influence BNDS had on me is that it provided me with various opportunities and platforms to grow according to my needs and choices.&rdquo;</p>
+<p>&mdash;&mdash;Tao Zeping, Class of 2013</p>
+                        </div>
+                    </dt>
+                    <dd>
+                        <div class="div_img">
+                            <img src="images/home/section_banner3.jpg" alt="">
+                            <p>Important ceremonies witness students&rsquo; growth, various festivals inspire their creativity, masters&rsquo; lectures expand their horizons, and colorful clubs spark their ideas ... In the wonderful campus activities, students gradually discover themselves, awaken their potentials, and finally achieve themselves.</p>
+                        </div>
+                        <div class="slide_nav">
+                            <ul>
+                                <li><a target="_blank"  href="index.php?m=content&c=index&a=lists&catid=16">Special Activities</a></li>
+                                <li><a target="_blank"  href="index.php?m=content&c=index&a=lists&catid=17">School Clubs</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+
+            </div>
+
+            <!-- footer -->
+            <div class=" section7" >
+
+                    <!-- footer -->
+                    <div class="footer">  
+                         
+    <div class="fo_top">
+    <ul class="fo_nav"> 
+        <!-- <li>
+            <h4>网站导航</h4>
+            <p>
+                <span><a href="index.php?m=content&c=index&a=lists&catid=6">遇见十一</a></span>
+                <span><a href="index.php?m=content&c=index&a=lists&catid=12">新闻动态</a></span>
+                <span><a href="index.php?m=content&c=index&a=lists&catid=14">十一课程</a></span>
+                <span><a href="index.php?m=content&c=index&a=lists&catid=16">校园生活</a></span>
+            </p>
+        </li> -->
+        <li style="display:none;">
+            <h4>Roles</h4>
+            <p>
+                <span><a href="/role/student/">Student</a></span>
+                <span><a href="/en/index.php?m=content&c=index&a=lists&catid=20">Parents</a></span>
+                <span><a href="/en/index.php?m=content&c=index&a=lists&catid=21">Faculty</a></span>
+                <span><a href="/en/index.php?m=content&c=index&a=lists&catid=22">Alumnus</a></span>
+            </p>
+        </li>
+        <li>
+            <h4>Links</h4>
+            <p>
+                                                        <span><a href="https://bnds.managebac.cn/login" target="_blank">ManageBac</a></span>
+                                        <span><a href="http://www.bnds.cn/en/2021/notice_0704/184.html" target="_blank">FAQ</a></span>
+                                        <span><a href="http://www.bnds.cn/en/2021/notice_0406/199.html" target="_blank">Join Us</a></span>
+                                                </p>
+        </li>
+        <li>
+            <h4>Contact Us</h4>
+            <p>
+                <span>Tel：+86-010-88279703</span>
+                <span>Email：employment@bnds.cn</span>
+                                <span style="position:absolute">Location: No.66 Yuquan Lu, Haidian District, Beijing 100039</span>
+            </p>
+        </li>
+    </ul>
+    <div class="fo_code">
+        <img src="/11s/uploadfile/2021/1011/20211011055058916.png" alt="">
+        <p>Follow BNDS WeChat Account</p>
+    </div>
+    </div>
+
+    <div class="fo_co">
+    <div class="fo_logo">
+        <a href="index.php"><img src="/images/logo_fo.png" alt=""></a>
+    </div>
+    <a href="https://beian.miit.gov.cn/#/" target="_blank"><p>&copy;2021 Beijing National Day School. All rights reserved.</p>
+</a>
+    </div>
+    
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c19fd8a795af3ba3750166e8e3eaa437";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  
+                    </div>
+
+            </div>
+                            </div>
+
+
+
+
+
+
+<style>
+    .home {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+    .home body {
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+    .body_home {
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .body_b {
+        position: fixed;
+        left: 0%;
+        top: 100%;
+        bottom: 0;
+        right: 0;
+        background: #fff;
+        overflow: hidden;
+        transition: top 0.7s cubic-bezier(0.5,0,0.2,1) 0s;
+        z-index: 100;
+        overflow: auto;
+        outline: none;
+        padding-top: 1rem;
+    }
+    .body_b.showdiv {
+        top: 0;
+    }
+    
+    .section2, .section3, .section4, .section5, .section6 {
+        margin-bottom: 1rem;
+    }
+
+    
+    
+    </style>
+    
+    <script>
+    
+    
+    
+ 
+    </script>
+    
+
+
+
+</body>
+</html>
